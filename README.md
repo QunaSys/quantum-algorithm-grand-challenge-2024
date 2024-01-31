@@ -1,7 +1,7 @@
-# Quantum Algorithm Grand Challenge
+# Quantum Algorithm Grand Challenge 2024
 
 # Table of Contents
-1. [Overview of Quantum Algorithm Grand Challenge](#Overview)
+1. [Overview of Quantum Algorithm Grand Challenge 2024](#Overview)
 2. [Introduction](#Introduction)
     - [Background](#Introduction_1)
     - [Model description](#Introduction_2)
@@ -20,10 +20,12 @@
 10. [Terms](#Terms)
 
 
-# Overview of Quantum Algorithm Grand Challenge <a id="Overview"></a>
+# Overview of Quantum Algorithm Grand Challenge 2024 <a id="Overview"></a>
 Quantum Algorithm Grand Challenge (QAGC) is a global online contest for students, researchers, and others who learn quantum computation and quantum chemistry around the world.
 
 Through this challenge, we aim to explore practical uses of Noisy Intermediate-Scale Quantum (NISQ) devices, visualize bottlenecks in NISQ device utilization, and create metrics to benchmark NISQ algorithms.
+
+
 ## Date
 From February 1, 2024, 0:00 (JST) to June 30, 2024, 23:59 (JST)
 
