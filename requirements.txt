@@ -1,0 +1,18 @@
+quri-parts == 0.16.1
+
+quri-parts-braket==0.16.1
+quri-parts-cirq==0.16.1
+quri-parts-itensor==0.16.1
+quri-parts-openfermion==0.16.1
+quri-parts-qiskit==0.16.1
+
+qiskit == 0.41.1
+cirq == 1.1.0
+amazon-braket-sdk == 1.66.0
+openfermion == 1.5.1
+numpy == 1.23.5
+juliacall >= 0.9.12
+
+# following package is used in example codes
+
+# scipy >= 1.9.1

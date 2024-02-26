@@ -1,7 +1,7 @@
-# Quantum Algorithm Grand Challenge 2024
+# Quantum Algorithm Grand Challenge
 
 # Table of Contents
-1. [Overview of Quantum Algorithm Grand Challenge 2024](#Overview)
+1. [Overview of Quantum Algorithm Grand Challenge](#Overview)
 2. [Introduction](#Introduction)
     - [Background](#Introduction_1)
     - [Model description](#Introduction_2)
@@ -20,11 +20,10 @@
 10. [Terms](#Terms)
 
 
-# Overview of Quantum Algorithm Grand Challenge 2024 <a id="Overview"></a>
+# Overview of Quantum Algorithm Grand Challenge <a id="Overview"></a>
 Quantum Algorithm Grand Challenge (QAGC) is a global online contest for students, researchers, and others who learn quantum computation and quantum chemistry around the world.
 
 Through this challenge, we aim to explore practical uses of Noisy Intermediate-Scale Quantum (NISQ) devices, visualize bottlenecks in NISQ device utilization, and create metrics to benchmark NISQ algorithms.
-
 
 ## Date
 From February 1, 2024, 0:00 (JST) to June 30, 2024, 23:59 (JST)
@@ -34,7 +33,9 @@ From February 1, 2024, 0:00 (JST) to June 30, 2024, 23:59 (JST)
 
 ## Awards
 
-Cash prizes will be presented to the top three terms. The specific amounts will be announced soon.
+- 1st Place - $5,000
+- 2nd Place - $2,500
+- 3rd Place - $1,500
 
 Currently, QunaSys is planning to apply to hold a workshop to be hosted by QunaSys at IEEE Quantum Week 2024. IEEE Quantum Week 2024 will be held as an in-person event with virtual participation on Sep 15–20 at Palais des Congrès Montréal, Québec, Canada. As in previous years, if applications are approved, the top three teams will be invited to present their algorithms at this workshop. We plan to share the details with participants as soon as they are finalized.
 
@@ -89,6 +90,9 @@ Also, when sampling within the algorithm, the total number of shots is limited t
 # Problem description <a id="problem"></a>
 
 ## Fermi-Hubbard Model <a id="problem_1"></a>
+Below is an explanation of the Hamiltonian used in QAGC. For further details, please refer to the following paper.
+[https://arxiv.org/abs/2402.11869](https://arxiv.org/abs/2402.11869)
+
 The Fermi-Hubbard model is a model used to describe the properties of strongly correlated electron systems, which are solids with strong electron correlation effects. It is used to explain important physical phenomena such as magnetism, Mott insulators, and high-temperature superconductors. 
 
 
@@ -198,6 +202,10 @@ During the evaluation period by the management, the submitted algorithm must be 
 - Processor: Apple M1 (8-core)
 - Memory: 16 GB
 - Storage: 256 GB
+
+## Maximum Usable Qubits
+
+In QAGC, the number of the maximum usable qubits has been set to 55 to prevent a substantial increase in the number of shots resulting from running two same 28-qubit circuits in parallel. Within this limit, you are free to add more qubits, but the calculation must be completed within the time limit.
 
 # Implementation <a id="Implementation"></a>
 
