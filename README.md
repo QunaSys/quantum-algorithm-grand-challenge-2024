@@ -369,14 +369,22 @@ The version of the main package used in the challenge for participants will be f
 python >= 3.9.8, <=3.11
 
 quri-parts == 0.16.1
+
+quri-parts-braket==0.16.1
+quri-parts-cirq==0.16.1
+quri-parts-itensor==0.16.1
+quri-parts-openfermion==0.16.1
+quri-parts-qiskit==0.16.1
+
 qiskit == 0.41.1
 cirq == 1.1.0
-amazon-braket-sdk = 1.66.0
+amazon-braket-sdk == 1.66.0
 openfermion == 1.5.1
-qulacs == 0.5.6
 numpy == 1.23.5
+juliacall >= 0.9.12
 ```
 
+Please refer to the `requirements.txt` in the repository.
 If you use a version other than the specified one, or use other packages, please specify the name of that package and its version in the issue to be registered when submitting.
 
 # Notes and Prohibited Items <a id="forbidden"></a>
